@@ -53,7 +53,9 @@ namespace Phew
                 {
                     var handler = new HttpClientHandler()
                     {
-                        ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator,
+#pragma warning disable S4830 // Server certificates should be verified during SSL/TLS connections
+                        ServerCertificateCustomValidationCallback = (a, b, c, d) => true,
+#pragma warning restore S4830
                     };
                     httpClient = new HttpClient(handler);
                     httpClient.BaseAddress = new Uri($"https://{IpAddress}/api");

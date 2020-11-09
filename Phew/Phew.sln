@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phew", "Phew\Phew.csproj", "{0B910E49-5E4A-4DF2-82CE-051FEEF865A0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenLighting", "ScreenLighting\ScreenLighting.csproj", "{FD639E32-8A22-44D8-9816-917B0C3E9639}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phew", "Phew\Phew.csproj", "{F14AFB70-0E69-4810-A324-96C45B8AC6ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,19 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0B910E49-5E4A-4DF2-82CE-051FEEF865A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0B910E49-5E4A-4DF2-82CE-051FEEF865A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0B910E49-5E4A-4DF2-82CE-051FEEF865A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0B910E49-5E4A-4DF2-82CE-051FEEF865A0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FD639E32-8A22-44D8-9816-917B0C3E9639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FD639E32-8A22-44D8-9816-917B0C3E9639}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FD639E32-8A22-44D8-9816-917B0C3E9639}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FD639E32-8A22-44D8-9816-917B0C3E9639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F14AFB70-0E69-4810-A324-96C45B8AC6ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14AFB70-0E69-4810-A324-96C45B8AC6ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14AFB70-0E69-4810-A324-96C45B8AC6ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14AFB70-0E69-4810-A324-96C45B8AC6ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {EFD9FC59-6344-4CF0-9114-32544101FAA5}
+		SolutionGuid = {C3BCCFBC-6012-403A-93BC-C8AA5911157C}
 	EndGlobalSection
 EndGlobal
